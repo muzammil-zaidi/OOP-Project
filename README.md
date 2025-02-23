@@ -2,10 +2,6 @@
 🚀 Welcome to My AI Chatbot Project!
 Experience the future of conversational AI with our intelligent chatbot, designed using C++ and integrated with Natural Language Processing (NLP) techniques. This project highlights advanced Object-Oriented Programming (OOP) principles, including class hierarchies, encapsulation, polymorphism, and inheritance, making the chatbot a dynamic and interactive assistant.
 
-🔍 Explore the Project Structure
-Curious about the inner workings? Check out the detailed class design and functional breakdown, ensuring a modular and efficient chatbot system.
-
-
 
 Instructor: Talha Shahid  
 Section: BCS-2J  
@@ -14,8 +10,6 @@ Prepared by:
 |------------------------------|------------|
 | Syed Muhammad Muzammil Zaidi | 24k-0887   |
 | Muhammad Ateeb Ali           | 24k-0839   |
-
-
 
 ### Introduction
 Our AI chatbot is designed to engage in meaningful conversations, answer user queries, and assist with various tasks in a user-friendly environment. The chatbot leverages an interactive interface, recognizing user inputs and responding accordingly. The project focuses on making the chatbot more human-like by implementing natural language processing techniques.
@@ -43,11 +37,9 @@ To address these challenges, we are implementing an AI chatbot using C++ with:
 - **Customizable Personalities**: Users can select chatbot personalities (e.g., formal, friendly, humorous).
 - **Multi-Topic Handling**: Can answer questions on various topics like weather, general knowledge, and personal productivity.
 - **Error Handling**: Recognizes and corrects misunderstandings to improve the user experience.
-- **Voice Input & Output** *(Optional)*: Integrating speech-to-text and text-to-speech functionalities.
 
 ### Controls
 - **Text Input**: User inputs text commands in the chat window.
-- **Voice Commands** *(if implemented)*: The chatbot can process voice commands.
 - **Predefined Shortcuts**: Quick commands like "help" or "reset conversation."
 
 ### Tools and Technologies
@@ -55,7 +47,6 @@ To address these challenges, we are implementing an AI chatbot using C++ with:
 - **Object-Oriented Programming (OOP) Principles**
 - **File Handling (for storing conversations)**
 - **Natural Language Processing (NLP) Algorithms**
-- **JSON/XML (Optional for structured data storage)**
 
 Additional features may be introduced during development, and some mentioned features may be modified based on feasibility and performance optimization.
 
