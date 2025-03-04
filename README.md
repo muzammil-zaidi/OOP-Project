@@ -1,4 +1,4 @@
-OOP Project Proposal**
+**OOP Project Proposal**
 
 🚀 **Head Tail Hand-Cricket Game – 
 **Instructor:** Talha Shahid  
