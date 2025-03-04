@@ -1,5 +1,6 @@
-🚀 **Head Tail Hand-Cricket Game – OOP Project Proposal**
+OOP Project Proposal**
 
+🚀 **Head Tail Hand-Cricket Game – 
 **Instructor:** Talha Shahid  
 **Section:** BCS-2J  
 
