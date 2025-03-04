@@ -1,49 +1,72 @@
-# OOP-Project
-🚀 Welcome to My AI Chatbot Project!
-Experience the future of conversational AI with our intelligent chatbot, designed using C++ and integrated with advanced Object-Oriented Programming (OOP) principles, including class hierarchies, encapsulation, polymorphism, and inheritance, making the chatbot a dynamic and interactive assistant.
+Head Tail Hand-Cricket Game – OOP Project Proposal
+Instructor: Talha Shahid
+Section: BCS-2J
+Prepared by:
+Name	Roll No
+Syed Muhammad Muzammil Zaidi	24k-0887
+Muhammad Ateeb Ali	24k-0839
+Introduction
 
-Instructor: Talha Shahid  
-Section: BCS-2J  
-Prepared by:  
-| Name                          | Roll No    |
-|------------------------------|------------|
-| Syed Muhammad Muzammil Zaidi | 24k-0887   |
-| Muhammad Ateeb Ali           | 24k-0839   |
+Head Tail Hand-Cricket is a 2D digital adaptation of a widely played hand-cricket game among Pakistani teenagers. The game replicates the essence of cricket without requiring complex settings or equipment. It uses Object-Oriented Programming (OOP) principles in C++, integrating Raylib for graphics to create an interactive and engaging experience.
 
+The game involves two players:
 
-### Introduction
-Our AI chatbot is designed to engage in meaningful conversations, answer user queries, and assist with various tasks in a user-friendly environment. The chatbot leverages an interactive interface, recognizing user inputs and responding accordingly. The project focuses on making the chatbot more human-like.
+    Batsman – Selects a number (1-6) using their fingers.
+    Bowler – Selects a number (1-6) to try and get the batsman out.
+    If both numbers match, the batsman is out; otherwise, the number shown by the batsman is added to their score.
 
-### Problem Statement
-Many AI chatbots lack depth and fluidity in conversations, often providing generic or irrelevant responses. Additionally, most chatbots do not learn from previous interactions, making them inefficient for long-term user engagement. Implementing file handling for chat history storage and retrieval is also challenging, requiring optimized data management techniques.
+Problem Statement
 
-### Proposed Solution
-To address these challenges, we are implementing an AI chatbot using C++ with:
-- **Advanced OOP principles**: A well-structured hierarchy of classes, including a base chatbot class and derived specialized bots.
-- **File Handling**: Storing user chat history, improving chatbot memory and learning over time.
-- **Personalization**: Adapting responses based on user preferences and past conversations.
-- **Efficiency and Scalability**: Optimizing the chatbot for quick response generation and handling large datasets efficiently.
+Traditional hand-cricket is played physically but lacks a digital version that can be easily accessed. The absence of a structured game leads to inconsistency in rules, and existing cricket games are often too complex for casual players who want a quick, lighthearted experience.
 
-### Features
-#### Core Chatbot Functionalities:
-- **Conversational AI**: Engages in human-like conversations.
-- **User Query Processing**: Understands and responds to user queries accurately.
-- **Chat Memory**: Stores past conversations using file handling for a personalized experience.
-- **Context Awareness**: Recognizes context to provide more relevant answers.
-- **Dynamic Response Generation**: Uses techniques for varied and meaningful responses.
+The challenge is to build a simple yet engaging C++ game using OOP principles while integrating Raylib for graphics and UI. The game should ensure smooth gameplay, accurate scoring, and a visually appealing interface.
+Proposed Solution
 
-#### Additional Features:
-- **Customizable Personalities**: Users can select chatbot personalities (e.g., formal, friendly, humorous).
-- **Multi-Topic Handling**: Can answer questions on various topics like weather, general knowledge, and personal productivity.
-- **Error Handling**: Recognizes and corrects misunderstandings to improve the user experience.
+To solve these challenges, we will develop Head Tail Hand-Cricket, featuring:
 
-### Controls
-- **Text Input**: User inputs text commands in the chat window.
-- **Predefined Shortcuts**: Quick commands like "help" or "reset conversation."
+    Object-Oriented Design: Encapsulated classes for Players, Game Mechanics, UI, and Input Handling.
+    Raylib Integration: A 2D graphical representation of hands, scores, and animations.
+    Turn-Based Gameplay: Smooth interaction between batsman and bowler with real-time score updates.
+    Minimalist UI: Aesthetic and user-friendly interface with smooth animations.
+    Scoring System & Game Rules: Automatic calculation of runs, wickets, and game progression.
 
-### Tools and Technologies
-- **C++ (Core Language)**
-- **Object-Oriented Programming (OOP) Principles**
-- **File Handling (for storing conversations)**
+Features
+Core Gameplay Mechanics
 
-Additional features may be introduced during development, and some mentioned features may be modified based on feasibility and performance optimization.
+✅ Hand Gesture Input: Players select numbers (1-6) representing their fingers.
+✅ Batsman & Bowler System: If numbers match, batsman is out; otherwise, runs are added.
+✅ Turn-Based Play: Players take turns being the batsman and bowler.
+✅ Scoreboard Display: Live updates of the runs and wickets.
+Advanced Features
+
+✅ Graphical Representation: Animated hands for both players.
+✅ Game Modes:
+
+    Single Player (vs AI)
+    Multiplayer (Local)
+    ✅ Sound Effects: Button clicks, scoring sounds, and "Out!" alerts.
+    ✅ End Game Conditions: Match ends when wickets run out or a target score is achieved.
+
+Controls
+
+🎮 Keyboard Inputs:
+
+    1-6 → Choose a number (hand gesture).
+    Enter → Confirm selection.
+    R → Restart the game.
+    Esc → Exit the game.
+
+Tools & Technologies
+
+🛠 Languages & Libraries
+
+    C++ (Core Logic & OOP Principles)
+    Raylib (2D Graphics & UI Rendering)
+
+📂 File Handling
+
+    Saving match results (optional feature).
+
+Expected Outcome
+
+By the end of this project, we will have a fully playable, visually appealing, and optimized 2D Head Tail Hand-Cricket Game that effectively demonstrates OOP principles and game development concepts.
