@@ -1,82 +1,99 @@
-🚀 **Head Tail Hand-Cricket Game – OOP Project Proposal**
+# 🚀 Battle Royale Game – OOP Project Proposal  
 
-**Instructor:** Talha Shahid  
-**Section:** BCS-2J  
+**Instructor:** [Instructor's Name]  
+**Section:** [Your Section]  
 
 **Prepared by:**  
 
-| Name                          | Roll No    |
-|------------------------------|------------|
-| Syed Muhammad Muzammil Zaidi | 24k-0887   |
-| Muhammad Ateeb Ali           | 24k-0839   |
+| **Name**                    | **Roll No** |
+|-----------------------------|--------------|
+| [Your Name]                   | [Your Roll No] |
+| [Teammate's Name (if any)]    | [Teammate's Roll No] |
 
 ---
 
-### **Introduction**
-Head Tail Hand-Cricket is a 2D digital adaptation of a widely played hand-cricket game among Pakistani teenagers. The game replicates the essence of cricket without requiring complex settings or equipment. It uses **Object-Oriented Programming (OOP)** principles in **C++**, integrating **Raylib** for graphics to create an interactive and engaging experience.
+## **Introduction**  
+The **Battle Royale Game** is a 2D survival shooter developed using **C++** and **SFML**. Inspired by popular battle royale games, this project combines strategic movement, enemy AI, and a shrinking safe zone to deliver an engaging gaming experience.  
 
-The game involves two players:
-- **Batsman** – Selects a number (1-6) using their fingers.
-- **Bowler** – Selects a number (1-6) to try and get the batsman out.
-
-If both numbers match, the batsman is out; otherwise, the number shown by the batsman is added to their score.
+The game features a dynamic arena where players must survive against AI-controlled enemies while navigating the ever-shrinking play area. Players must manage movement, avoid threats, and strategically plan their survival.
 
 ---
 
-### **Problem Statement**
-Traditional hand-cricket is played physically but lacks a digital version that can be easily accessed. The absence of a structured game leads to inconsistency in rules, and existing cricket games are often too complex for casual players who want a quick, lighthearted experience.
+## **Problem Statement**  
+Battle royale games are highly popular, but most require extensive resources and complex mechanics. There’s a need for a lightweight yet enjoyable 2D battle royale prototype that focuses on core mechanics like movement, enemy AI, and player survival.  
 
-The challenge is to build a simple yet engaging **C++ game** using **OOP principles** while integrating **Raylib** for graphics and UI. The game should ensure smooth gameplay, accurate scoring, and a visually appealing interface.
-
----
-
-### **Proposed Solution**
-To solve these challenges, we will develop **Head Tail Hand-Cricket**, featuring:
-
-- **Object-Oriented Design**: Encapsulated classes for Players, Game Mechanics, UI, and Input Handling.
-- **Raylib Integration**: A 2D graphical representation of hands, scores, and animations.
-- **Turn-Based Gameplay**: Smooth interaction between batsman and bowler with real-time score updates.
-- **Minimalist UI**: Aesthetic and user-friendly interface with smooth animations.
-- **Scoring System & Game Rules**: Automatic calculation of runs, wickets, and game progression.
+Our challenge is to design a simple yet challenging **Battle Royale Game** that demonstrates strong **OOP principles** in **C++** with **SFML** for graphics and UI.
 
 ---
 
-### **Features**
-#### **Core Gameplay Mechanics**
-✅ **Hand Gesture Input**: Players select numbers (1-6) representing their fingers.  
-✅ **Batsman & Bowler System**: If numbers match, the batsman is out; otherwise, runs are added.  
-✅ **Turn-Based Play**: Players take turns being the batsman and bowler.  
-✅ **Scoreboard Display**: Live updates of the runs and wickets.  
+## **Proposed Solution**  
+Our Battle Royale Game will offer:  
 
-#### **Advanced Features**
-✅ **Graphical Representation**: Animated hands for both players.  
-✅ **Game Modes**:
-- Single Player (vs AI)
-- Multiplayer (Local)  
-✅ **Sound Effects**: Button clicks, scoring sounds, and "Out!" alerts.  
-✅ **End Game Conditions**: Match ends when wickets run out or a target score is achieved.  
+✅ **Object-Oriented Design:** Encapsulated classes for Players, Enemies, Game Mechanics, and UI.  
+✅ **SFML Integration:** For rendering sprites, animations, and handling game logic.  
+✅ **Core Gameplay Mechanics:** Movement, enemy tracking, and survival-based gameplay.  
+✅ **Shrinking Safe Zone:** Forces players toward a central point to increase tension.  
+✅ **Visual and Audio Effects:** Basic sound effects for player actions and enemy encounters.  
 
 ---
 
-### **Controls**
-🎮 **Keyboard Inputs:**
-- **1-6** → Choose a number (hand gesture).  
-- **Enter** → Confirm selection.  
-- **R** → Restart the game.  
-- **Esc** → Exit the game.  
+## **Features**  
+### **Core Gameplay Mechanics**  
+✅ **Player Movement:** Smooth movement with WASD controls.  
+✅ **Enemy AI:** Enemies that intelligently track the player’s position.  
+✅ **Safe Zone System:** The safe zone shrinks gradually to pressure players.  
+✅ **Health & Survival Mechanics:** Players lose health if caught outside the safe zone or collide with enemies.  
+
+### **Advanced Features**  
+✅ **Shooting System:** Players can shoot bullets to eliminate enemies.  
+✅ **Dynamic HUD:** Displays health, ammo, and safe zone countdown.  
+✅ **Scoreboard System:** Tracks player survival time and defeated enemies.  
+✅ **Power-ups & Loot:** Items like health packs, armor, and upgraded weapons.  
 
 ---
 
-### **Tools & Technologies**
-🛠 **Languages & Libraries**
-- **C++** (Core Logic & OOP Principles)
-- **Raylib** (2D Graphics & UI Rendering)
+## **Controls**  
+🎮 Keyboard Inputs:  
 
-📂 **File Handling**
-- Saving match results *(optional feature)*.
+| **Action**    | **Key** |
+|----------------|----------|
+| Move Up         | `W`      |
+| Move Down       | `S`      |
+| Move Left       | `A`      |
+| Move Right      | `D`      |
+| Shoot           | `Space`  |
+| Pause/Resume    | `P`      |
+| Exit Game       | `Esc`    |
 
 ---
 
-### **Expected Outcome**
-By the end of this project, we will have a fully playable, visually appealing, and optimized **2D Head Tail Hand-Cricket Game** that effectively demonstrates **OOP principles** and **game development concepts**.
+## **Tools & Technologies**  
+🛠 Languages & Libraries:  
+- **C++** (Core Logic & OOP Principles)  
+- **SFML** (2D Graphics, UI Rendering, and Event Handling)  
+- **CMake** (Build System)  
 
+📂 **File Handling**  
+- Saving game scores and player stats (optional feature).
+
+---
+
+## **Expected Outcome**  
+By the end of this project, we aim to develop a functional **2D Battle Royale Game** that effectively demonstrates:  
+✅ Solid **Object-Oriented Programming** principles.  
+✅ Interactive gameplay with smooth player movement and enemy AI.  
+✅ A visually appealing interface with responsive controls.  
+
+---
+
+## **To-Do List**  
+- [ ] Implement shooting mechanics.  
+- [ ] Introduce a shrinking safe zone.  
+- [ ] Add scoring and leaderboard systems.  
+- [ ] Improve enemy AI for smarter behavior.  
+- [ ] Design power-ups and weapon variety.  
+
+---
+
+## **Conclusion**  
+This project will provide valuable experience in **game development**, **OOP principles**, and **graphics programming** using **SFML**. It’s designed to deliver a challenging yet rewarding gameplay experience while ensuring clear and maintainable code.
