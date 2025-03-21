@@ -1,14 +1,14 @@
 # 🚀 Battle Royale Game – OOP Project Proposal  
 
-**Instructor:** [Instructor's Name]  
-**Section:** [Your Section]  
+**Instructor:** Talha Shahid  
+**Section:** BCS-2J  
 
 **Prepared by:**  
 
 | **Name**                    | **Roll No** |
 |-----------------------------|--------------|
-| [Your Name]                   | [Your Roll No] |
-| [Teammate's Name (if any)]    | [Teammate's Roll No] |
+| Syed Muhammad Muzammil Zaidi                   | 24K-0887 |
+| Muhammad Ateeb Ali    | 24K-0839 |
 
 ---
 
