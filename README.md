@@ -1,99 +1,130 @@
-# 🚀 Battle Royale Game – OOP Project Proposal  
+# **Project Title:** The Last Helldiver
 
-**Instructor:** Talha Shahid  
-**Section:** BCS-2J  
-
-**Prepared by:**  
-
-| **Name**                    | **Roll No** |
-|-----------------------------|--------------|
-| Syed Muhammad Muzammil Zaidi                   | 24K-0887 |
-| Muhammad Ateeb Ali    | 24K-0839 |
+**Group Members:**
+• Muhammad Ateeb Ali (24K-0839)
+• Syed Muhammad Muzammil Zaidi (24K-0887)
+**Submission Date:** 11/05/2025
 
 ---
 
-## **Introduction**  
-The **Battle Royale Game** is a 2D survival shooter developed using **C++** and **SFML**. Inspired by popular battle royale games, this project combines strategic movement, enemy AI, and a shrinking safe zone to deliver an engaging gaming experience.  
+### 1. Executive Summary
 
-The game features a dynamic arena where players must survive against AI-controlled enemies while navigating the ever-shrinking play area. Players must manage movement, avoid threats, and strategically plan their survival.
+**Overview:**
+*The Last Helldiver* is a 2D battle royale game created in C++ using SFML. Developed as a semester project for Object-Oriented Programming, the game immerses players in a survival arena where enemies close in and a hellish fire zone shrinks the battlefield. It is a tribute to OOP principles applied in real-time gameplay through movement, AI, shooting, dynamic HUD, and zone mechanics.
 
----
-
-## **Problem Statement**  
-Battle royale games are highly popular, but most require extensive resources and complex mechanics. There’s a need for a lightweight yet enjoyable 2D battle royale prototype that focuses on core mechanics like movement, enemy AI, and player survival.  
-
-Our challenge is to design a simple yet challenging **Battle Royale Game** that demonstrates strong **OOP principles** in **C++** with **SFML** for graphics and UI.
+**Key Findings:**
+• Comprehensive application of OOP: encapsulation, inheritance, and abstraction.
+• Delivered a fully interactive, audio-visual, SFML-based game with polish.
+• Lore-intro, shooting sounds, fire zone, sprites, and HUD all successfully implemented.
 
 ---
 
-## **Proposed Solution**  
-Our Battle Royale Game will offer:  
+### 2. Introduction
 
-✅ **Object-Oriented Design:** Encapsulated classes for Players, Enemies, Game Mechanics, and UI.  
-✅ **SFML Integration:** For rendering sprites, animations, and handling game logic.  
-✅ **Core Gameplay Mechanics:** Movement, enemy tracking, and survival-based gameplay.  
-✅ **Shrinking Safe Zone:** Forces players toward a central point to increase tension.  
-✅ **Visual and Audio Effects:** Basic sound effects for player actions and enemy encounters.  
+**Background:**
+Battle royale games dominate the gaming world but often require vast resources. *The Last Helldiver* reimagines this genre as a focused, immersive 2D experience in C++, built around survival, minimalism, and Object-Oriented Programming.
 
----
-
-## **Features**  
-### **Core Gameplay Mechanics**  
-✅ **Player Movement:** Smooth movement with WASD controls.  
-✅ **Enemy AI:** Enemies that intelligently track the player’s position.  
-✅ **Safe Zone System:** The safe zone shrinks gradually to pressure players.  
-✅ **Health & Survival Mechanics:** Players lose health if caught outside the safe zone or collide with enemies.  
-
-### **Advanced Features**  
-✅ **Shooting System:** Players can shoot bullets to eliminate enemies.  
-✅ **Dynamic HUD:** Displays health, ammo, and safe zone countdown.  
-✅ **Scoreboard System:** Tracks player survival time and defeated enemies.  
-✅ **Power-ups & Loot:** Items like health packs, armor, and upgraded weapons.  
+**Project Objectives:**
+• Build a playable 2D battle royale game with clear OOP design.
+• Demonstrate principles of encapsulation, inheritance, and polymorphism.
+• Implement movement, enemy AI, shooting mechanics, HUD, and shrinking zone.
 
 ---
 
-## **Controls**  
-🎮 Keyboard Inputs:  
+### 3. Project Description
 
-| **Action**    | **Key** |
-|----------------|----------|
-| Move Up         | `W`      |
-| Move Down       | `S`      |
-| Move Left       | `A`      |
-| Move Right      | `D`      |
-| Shoot           | `Space`  |
-| Pause/Resume    | `P`      |
-| Exit Game       | `Esc`    |
+**Scope:**
+**Included:**
+• Player character with sprite-based movement
+• Enemy AI pursuing the player
+• Bullet firing with cooldown and collision detection
+• Shrinking "fire" safe zone that damages player
+• Sound effects for shooting
+• HUD with score, kill count, and health
+• Start screen and custom game-over screen
 
----
+**Excluded:**
+• Multiplayer gameplay
+• Power-ups and weapon upgrades
+• Advanced AI pathfinding and enemy diversity
 
-## **Tools & Technologies**  
-🛠 Languages & Libraries:  
-- **C++** (Core Logic & OOP Principles)  
-- **SFML** (2D Graphics, UI Rendering, and Event Handling)  
-- **CMake** (Build System)  
-
-📂 **File Handling**  
-- Saving game scores and player stats (optional feature).
-
----
-
-## **Expected Outcome**  
-By the end of this project, we aim to develop a functional **2D Battle Royale Game** that effectively demonstrates:  
-✅ Solid **Object-Oriented Programming** principles.  
-✅ Interactive gameplay with smooth player movement and enemy AI.  
-✅ A visually appealing interface with responsive controls.  
+**Technical Overview:**
+• **Language:** C++
+• **Library:** SFML (Simple and Fast Multimedia Library)
+• **IDE:** Visual Studio Code
+• **Assets:** Custom PNGs for sprites, background, and zone
+• **Audio:** shoot.wav integrated via SFML
+• **Version Control:** Git (local)
 
 ---
 
-## **To-Do List**  
-- [ ] Implement shooting mechanics.  
-- [ ] Introduce a shrinking safe zone.  
-- [ ] Add scoring and leaderboard systems.  
-- [ ] Improve enemy AI for smarter behavior.  
-- [ ] Design power-ups and weapon variety.  
+### 4. Methodology
+
+**Approach:**
+We used an iterative, agile-inspired method, dedicating each week to a core component: movement, bullets, enemies, HUD, zone, polish.
+
+**Roles and Responsibilities:**
+• **Muhammad Ateeb Ali:** Player logic, bullet system, shoot sound, HUD, UI polish, lore screen
+• **Syed Muhammad Muzammil Zaidi:** Enemy AI, fire zone shrinking logic, collision handling
 
 ---
 
-## **Conclusion**  
-This project will provide valuable experience in **game development**, **OOP principles**, and **graphics programming** using **SFML**. It’s designed to deliver a challenging yet rewarding gameplay experience while ensuring clear and maintainable code.
+### 5. Project Implementation
+
+**Design and Structure:**
+• `Entity` base class for all game characters and objects
+• `Player`, `Enemy`, and `Bullet` inherit and override behaviors
+• `SafeZone` controls the fire zone logic
+
+**Functionalities Developed:**
+• WASD-based smooth player movement
+• Enemy AI chases player
+• Mouse-based bullet shooting with sound and cooldown
+• Dynamic HUD with live stats
+• Custom sprite and sound integration
+• Game-over screen with background image and score file output
+
+**Challenges Faced:**
+• Player not taking damage initially due to collision logic
+• Safe zone scaling incorrectly before coordinate recalibration
+• Game loop not ending due to health-check bug
+• Sprite and scaling alignment for custom textures
+
+---
+
+### 6. Results
+
+**Project Outcomes:**
+• A fully working single-player 2D battle royale game
+• Complete encapsulation and real-world OOP application
+• Polish in visual and auditory elements for better immersion
+
+**Testing and Validation:**
+• Manual testing for player-enemy and bullet-enemy collisions
+• Timing tests for fire zone shrink rate and shooting cooldown
+• UI element placement and responsiveness checked via varying resolutions
+
+**Screenshots:**
+![image](https://github.com/user-attachments/assets/c71f1d2b-a875-441c-ae8b-dd7452403423)
+
+![image](https://github.com/user-attachments/assets/aae8aee4-032b-4b2a-8491-1532cf09a2ac)
+
+![image](https://github.com/user-attachments/assets/64b45aca-a018-4fcf-b358-7ae34859888f)
+
+![image](https://github.com/user-attachments/assets/e7616074-74a7-43e3-8187-996c1a5ba793)
+
+
+
+
+
+---
+
+### 7. Conclusion
+
+**Summary of Findings:**
+*The Last Helldiver* achieves all of its intended goals and even exceeds some — with aesthetic upgrades, sound, and structured OOP code.
+
+**Final Remarks:**
+We pushed the boundaries of what we thought possible in a C++ OOP semester project. From enemy AI to immersive fire zones, this project taught us game loops, object design, memory safety, and polish. We look forward to possibly expanding this into multiplayer or adding more strategic elements in the future.
+
+---
